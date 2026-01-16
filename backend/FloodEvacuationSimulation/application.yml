@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/evacuation
+    username: postgres
+    password: disha00
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
