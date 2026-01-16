@@ -1,0 +1,14 @@
+.panel {
+  width: 280px;
+  padding: 12px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+}
+
+.section {
+  margin-bottom: 12px;
+}
+
+h3, h4 {
+  margin: 8px 0;
+}

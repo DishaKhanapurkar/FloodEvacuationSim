@@ -1,0 +1,44 @@
+<div class="panel">
+  <h3>Control Panel</h3>
+
+  <label>
+    Flood Speed:
+    <input type="number" [(ngModel)]="floodSpeed" />
+  </label>
+
+  <h4>Flood Sources</h4>
+  @for (node of nodes; track node.id) {
+    <div>
+      <input
+        type="checkbox"
+        (change)="toggleFloodSource(node.id, $event.target.checked)"
+      />
+      Point {{ node.id }}
+    </div>
+  }
+
+  <h4>Safe Path</h4>
+
+  <label>
+    Start:
+    <select [(ngModel)]="startNode">
+      @for (node of nodes; track node.id) {
+        <option [value]="node.id">{{ node.id }}</option>
+      }
+    </select>
+  </label>
+
+  <label>
+    End:
+    <select [(ngModel)]="endNode">
+      @for (node of nodes; track node.id) {
+        <option [value]="node.id">{{ node.id }}</option>
+      }
+    </select>
+  </label>
+
+  <br /><br />
+
+  <button (click)="runFloodSimulation()">Run Flood</button>
+  <button (click)="runPathSimulation()">Find Safe Path</button>
+</div>

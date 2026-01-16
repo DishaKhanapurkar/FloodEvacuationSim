@@ -1,0 +1,15 @@
+.node-label div {
+  background: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.node-label.selected div {
+  background: #ffeb3b;
+  border-color: #f57c00;
+}
