@@ -78,6 +78,10 @@ Stores graph structure and simulation data
 <img width="1600" height="824" alt="image" src="https://github.com/user-attachments/assets/2b615cd3-96ed-42a3-b8cd-43ef9e10bd01" />
 
 
+
+<img width="1918" height="1013" alt="image" src="https://github.com/user-attachments/assets/484acba1-5b7b-4afe-aec5-af6733b5e78a" />
+
+
 📊 Example Scenario
 
 A shorter route passes through low-lying roads
@@ -114,4 +118,5 @@ Human speed vs flood speed
 Animated flood visualization
 
 Shelter nodes immune to flooding
+
 
