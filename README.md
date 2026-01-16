@@ -75,6 +75,9 @@ PostgreSQL
 
 Stores graph structure and simulation data
 
+<img width="1600" height="824" alt="image" src="https://github.com/user-attachments/assets/2b615cd3-96ed-42a3-b8cd-43ef9e10bd01" />
+
+
 📊 Example Scenario
 
 A shorter route passes through low-lying roads
@@ -111,3 +114,4 @@ Human speed vs flood speed
 Animated flood visualization
 
 Shelter nodes immune to flooding
+
